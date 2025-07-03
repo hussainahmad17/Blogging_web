@@ -19,7 +19,7 @@ function checkForAuthenticationCookie(cookieName) {
 
 const checkAuth = async (req,res, next) => {
   if(!req.user){
-     res.render("signin")
+     res.redirect("/user/signin")
   }
  return next();
 }
