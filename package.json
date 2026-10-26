@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node api.js && node app.js",
-    "dev": "node api.js && nodemon app.js",
-    "preinstall": "node dist/setup.js"
+    "dev": "node api.js && nodemon app.js"
   },
   "author": "",
   "engines": {
